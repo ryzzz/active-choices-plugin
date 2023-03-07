@@ -490,7 +490,7 @@ var UnoChoice = UnoChoice || (function($) {
         // console.log('Propagating change event from ' + this.getParameterName());
         // var e = jQuery.Event('change', {parameterName: this.getParameterName()});
         // jQuery(this.getParameterElement()).trigger(e);
-        if (!avoidRecursion) {
+        if (true) {
             if (cascadeParameters && cascadeParameters.length > 0) {
                 for (var i = 0; i < cascadeParameters.length; i++) {
                     var other = cascadeParameters[i];
@@ -654,7 +654,7 @@ var UnoChoice = UnoChoice || (function($) {
         // console.log('Propagating change event from ' + this.getParameterName());
         // var e = jQuery.Event('change', {parameterName: this.getParameterName()});
         // jQuery(this.getParameterElement()).trigger(e);
-        if (!avoidRecursion) {
+        if (true) {
             if (cascadeParameters && cascadeParameters.length > 0) {
                 for (var i = 0; i < cascadeParameters.length; i++) {
                     var other = cascadeParameters[i];
